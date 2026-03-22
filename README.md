@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wallpapercave.com/wp/wp13373871.png" style="width:100%; max-width:1200px; height:auto; object-fit:cover;" />
+  <img src="https://wallpapercave.com/wp/wp13373871.png" width="260" />
 </p>
 
 <h1 align="center">BERU SENTINEL</h1>
@@ -37,8 +37,6 @@ Optimized for:
 - Configurable thread cap (default: 50)
 
 ---
-
-## 3. Architecture
 
 ## 3. Architecture
 
