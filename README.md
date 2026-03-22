@@ -1,11 +1,6 @@
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" width="180" />
+  <img src="https://static.wikia.nocookie.net/solo-leveling/images/5/5f/Beru.png" width="260" />
 </p>
-
-<h1 align="center">BERU SENTINEL</h1>
-<p align="center">High-Performance Log Intelligence & Anomaly Detection Engine</p>
-
----
 
 ## 1. Overview
 
