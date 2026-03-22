@@ -40,16 +40,24 @@ Optimized for:
 
 ## 3. Architecture
 
-The Beru Sentinel Engine is designed to process large-scale logs efficiently while keeping all operations thread-safe. It uses a modular design:
+## 3. Architecture
+
+The Beru Sentinel Engine is designed for high-throughput log processing with strict thread safety and a modular architecture.
+
+### System Overview
+
+```text
 CLI
 │
+▼
 Engine
 ├── Parser
 ├── Analyzer
-│ ├── Pattern Engine
-│ └── Behavioral Tracker
+│   ├── Pattern Engine
+│   └── Behavioral Tracker
 ├── Storage (thread-safe)
 └── Logger
+````
 
 
 - **Parser:** Converts raw log lines into structured entries.
