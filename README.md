@@ -1,33 +1,35 @@
 <p align="center">
-  <img src="assets/beru.png" width="260" />
+  <img src="https://static.wikia.nocookie.net/solo-leveling/images/5/5f/Beru.png/revision/latest?cb=20210320000000" width="260" />
 </p>
 
 <h1 align="center">BERU SENTINEL</h1>
 <p align="center">High-Performance Log Intelligence & Anomaly Detection Engine</p>
 
+---
+
 ## 1. Overview
 
-Beru Sentinel is a multi-threaded log processing engine designed to analyze large-scale log datasets and extract anomalous patterns using deterministic detection techniques.
+Beru Sentinel is a multi-threaded log processing engine designed to analyze large-scale log datasets and detect anomalous behavior using deterministic rule-based detection.
 
-The system is optimized for:
-- High throughput log ingestion
-- Concurrent analysis
-- Rule-based anomaly detection
-- Behavioral tracking using frequency models
+Optimized for:
+- High-throughput log ingestion
+- Concurrent processing
+- Pattern-based anomaly detection
+- IP-based behavioral tracking
 
 ---
 
 ## 2. Core Capabilities
 
 ### 2.1 Throughput
-- Processes ~50,000 to 150,000 log lines per minute (hardware dependent)
-- Streaming-based processing (no full memory load)
+- Processes ~50k–150k log lines per minute (hardware-dependent)
+- Streaming-based processing (no full file load)
 - Thread batching for controlled concurrency
 
 ### 2.2 Detection Layers
-1. Pattern Matching Engine (signature-based)
-2. Behavioral Detection (IP frequency tracking)
-3. Payload Heuristics (length anomaly detection)
+1. **Pattern Matching Engine** — signature-based detection
+2. **Behavioral Detection** — frequency tracking per IP
+3. **Payload Heuristics** — length anomaly detection
 
 ### 2.3 Concurrency Model
 - Thread-per-task execution (batched)
