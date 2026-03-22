@@ -1,0 +1,5 @@
+{
+  "thread_limit": 50,
+  "bruteforce_threshold": 40,
+  "max_line_length": 1500
+}
