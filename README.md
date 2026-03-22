@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://wallpapercave.com/wp/wp13373871.png" style="width:100%; max-width:1200px; height:auto; object-fit:cover; border-radius:8px;" />
+  <img src="https://wallpapercave.com/wp/wp13373871.png" style="width:100vw; max-width:100%; height:auto; object-fit:cover;" />
 </p>
 
 <h1 align="center">BERU SENTINEL</h1>
