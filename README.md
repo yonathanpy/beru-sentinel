@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="https://static.wikia.nocookie.net/solo-leveling/images/5/5f/Beru.png/revision/latest?cb=20210320000000" width="260" />
+  <img src="https://static.wikia.nocookie.net/solo-leveling/images/5/5f/Beru.png/revision/latest" width="200"/>
 </p>
+
+<h1 align="center">BERU SENTINEL</h1>
+<p align="center">Adaptive Log Intelligence Engine</p>
 ## 1. Overview
 
 Beru Sentinel is a multi-threaded log processing engine designed to analyze large-scale log datasets and extract anomalous patterns using deterministic detection techniques.
