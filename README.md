@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/security.svg" width="180" />
+  <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" width="180" />
 </p>
 
 <h1 align="center">BERU SENTINEL</h1>
@@ -17,25 +17,23 @@ The system is optimized for:
 - Rule-based anomaly detection
 - Behavioral tracking using frequency models
 
-It is intended for defensive security analysis, monitoring, and research.
-
 ---
 
 ## 2. Core Capabilities
 
 ### 2.1 Throughput
-- Handles ~50k–150k log lines/minute (depends on CPU threads and I/O)
-- Thread batching model with configurable limits
-- Memory-efficient streaming (no full file load)
+- Processes ~50,000 to 150,000 log lines per minute (hardware dependent)
+- Streaming-based processing (no full memory load)
+- Thread batching for controlled concurrency
 
 ### 2.2 Detection Layers
-1. Pattern Matching Engine (string-based signatures)
+1. Pattern Matching Engine (signature-based)
 2. Behavioral Detection (IP frequency tracking)
-3. Payload Heuristics (length-based anomaly detection)
+3. Payload Heuristics (length anomaly detection)
 
 ### 2.3 Concurrency Model
-- Thread-per-line execution (batched)
-- Lock-based shared storage
+- Thread-per-task execution (batched)
+- Mutex-protected shared storage
 - Configurable thread cap (default: 50)
 
 ---
