@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/beru.jpg" width="260" />
+  <img src="assets/beru.png" width="260" />
 </p>
 ## 1. Overview
 
