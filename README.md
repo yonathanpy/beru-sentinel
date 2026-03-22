@@ -1,36 +1,43 @@
 <p align="center">
-  <img src="https://img.icons8.com/external-flat-juicy-fish/200/external-ant-animal-flat-flat-juicy-fish.png" width="200" />
+  <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/security.svg" width="180" />
 </p>
 
-# Beru Sentinel
+<h1 align="center">BERU SENTINEL</h1>
+<p align="center">High-Performance Log Intelligence & Anomaly Detection Engine</p>
 
-Beru Sentinel is a high-performance log analysis engine designed for detecting anomalies and suspicious activity patterns in large-scale log datasets.
+---
 
-## Overview
+## 1. Overview
 
-The system processes raw log data and applies layered detection mechanisms including:
+Beru Sentinel is a multi-threaded log processing engine designed to analyze large-scale log datasets and extract anomalous patterns using deterministic detection techniques.
 
-- Pattern-based attack detection
-- Behavioral analysis (IP frequency tracking)
-- Payload anomaly detection
+The system is optimized for:
+- High throughput log ingestion
+- Concurrent analysis
+- Rule-based anomaly detection
+- Behavioral tracking using frequency models
 
-## Key Features
+It is intended for defensive security analysis, monitoring, and research.
 
-- Multi-threaded processing
-- Configurable detection thresholds
-- Modular architecture
-- Thread-safe storage engine
-- Fast parsing pipeline
+---
 
-## Detection Capabilities
+## 2. Core Capabilities
 
-- SQL Injection patterns
-- Cross-site scripting indicators
-- Local file inclusion attempts
-- Brute-force behavior detection
-- Oversized payload detection
+### 2.1 Throughput
+- Handles ~50k–150k log lines/minute (depends on CPU threads and I/O)
+- Thread batching model with configurable limits
+- Memory-efficient streaming (no full file load)
 
-## Execution
+### 2.2 Detection Layers
+1. Pattern Matching Engine (string-based signatures)
+2. Behavioral Detection (IP frequency tracking)
+3. Payload Heuristics (length-based anomaly detection)
 
-```bash
-python cli.py logs.txt
+### 2.3 Concurrency Model
+- Thread-per-line execution (batched)
+- Lock-based shared storage
+- Configurable thread cap (default: 50)
+
+---
+
+## 3. Architecture
