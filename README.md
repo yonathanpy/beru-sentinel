@@ -1,10 +1,9 @@
 <p align="center">
-  <img src="https://wallpapercave.com/wp/wp13373871.png" width="260" />
+  <img src="https://wallpapercave.com/wp/wp13373871.png" width="400" height="200" style="object-fit:cover;" />
 </p>
 
 <h1 align="center">BERU SENTINEL</h1>
 <p align="center">High-Performance Log Intelligence & Anomaly Detection Engine</p>
-
 ---
 
 ## 1. Overview
