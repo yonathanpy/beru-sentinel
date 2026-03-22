@@ -1,6 +1,9 @@
 <p align="center">
-  <img src="assets/beru.png" width="260" />
+  <img src="assets/beru.png" width="220"/>
 </p>
+
+<h1 align="center">BERU SENTINEL</h1>
+<p align="center">High-Performance Log Intelligence Engine</p>
 ## 1. Overview
 
 Beru Sentinel is a multi-threaded log processing engine designed to analyze large-scale log datasets and extract anomalous patterns using deterministic detection techniques.
