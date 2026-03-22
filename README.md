@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://static.wikia.nocookie.net/solo-leveling/images/5/5f/Beru.png/revision/latest?cb=20210320000000" width="260" />
+  <img src="https://wallpapercave.com/wp/wp13373871.png" width="260" />
 </p>
 
 <h1 align="center">BERU SENTINEL</h1>
