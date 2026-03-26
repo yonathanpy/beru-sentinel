@@ -44,7 +44,6 @@ The Beru Sentinel Engine is designed for high-throughput log processing with str
 ```text
 CLI
 │
-▼
 Engine
 ├── Parser
 ├── Analyzer
