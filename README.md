@@ -111,7 +111,7 @@ File: config.json
 | bruteforce_threshold | Requests per IP before alert | 40      |
 | max_line_length      | Payload anomaly threshold    | 1500    |
 ````
-6. Usage
+### 6. Usage
 ````
 python cli.py logs.txt
 ````
@@ -121,7 +121,7 @@ Input: plain text logs
 UTF-8 preferred (other encodings handled safely)
 Line-separated entries
 
-6.1 Keys & Security Tokens
+### 6.1 Keys & Security Tokens
 
 Beru Sentinel supports optional API keys and access tokens for integration with external services (like SIEMs, alert systems, or dashboards). All keys are stored locally in keys.json and never sent externally by default.
 
@@ -151,7 +151,7 @@ Never commit real tokens to public repositories.
 Use placeholders or .env files for sensitive keys.
 Beru Sentinel validates key format before sending alerts to prevent misfires.
 
-7. Output Example
+### 7. Output Example
 ````
 [SQLI] (12)
 GET /index.php?id=1 UNION SELECT ...
@@ -170,30 +170,30 @@ Alerts are grouped by type and count.
 | CPU Scaling     | Near-linear        |
 | Max Tested File | 1.2 GB             |
 
-9. Limitations
+### 9. Limitations
 In-memory storage only
 Signature-based detection (no ML)
 No distributed processing
 Thread overhead beyond 200 threads
 
-10. Extension Points
+### 10. Extension Points
 Add new detection patterns: core/patterns.py
 Extend Analyzer logic: core/analyzer.py
 Swap Storage backend: core/storage.py (SQLite / Redis / File)
 
-11. Security Scope
+### 11. Security Scope
 Non-intrusive: Does not scan or attack any targets
 Defensive use only: Analyzes logs you provide
 Suitable for: Incident response, monitoring, and alert generation
 
-12. Roadmap
+### 12. Roadmap
 Async processing (event loop)
 Plugin system for custom detections
 Database integration (SQLite / PostgreSQL)
 REST API support
 Real-time streaming ingestion
 
-13. Design Principles
+### 13. Design Principles
 Deterministic processing
 Minimal dependencies
 High performance
