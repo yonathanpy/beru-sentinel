@@ -87,15 +87,15 @@ Complexity: **O(p × l)** where `p = # patterns`, `l = line length`
 ### 4.4 Execution Model
 1. Stream log lines from file or stdin  
 2. Spawn worker threads  
-3. Parse → Analyze → Store → Log  
-4. Join threads and output results
+3. Parse → Analyze → Store → Log
+4. 4. Join threads and output results
 
 Thread control:
 ```python
 if active_threads >= thread_limit:
     join_all_threads()
 ```
-5. Configuration
+ 5. Configuration
 
 File: config.json
 ```{
@@ -161,7 +161,7 @@ GET /index.php?id=1 UNION SELECT ...
 POST /login ...
 ...
 ````
-Alerts are grouped by type and count.
+### 8 Alerts are grouped by type and count.
 
 | Metric          | Value              |
 | --------------- | ------------------ |
