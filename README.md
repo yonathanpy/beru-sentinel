@@ -3,7 +3,6 @@
 </p>
 <h1 align="center">BERU SENTINEL</h1>
 <p align="center">High-Performance Log Intelligence & Anomaly Detection Engine</p>
----
 
 # 1. Overview
 
