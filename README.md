@@ -4,7 +4,8 @@
 <h1 align="center">BERU SENTINEL</h1>
 <p align="center">High-Performance Log Intelligence & Anomaly Detection Engine</p>
 ---
-## 1. Overview
+
+# 1. Overview
 
 Beru Sentinel is a multi-threaded log processing engine designed to analyze large-scale log datasets and detect anomalous behavior using deterministic rule-based detection.
 
